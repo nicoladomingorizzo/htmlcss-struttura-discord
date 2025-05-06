@@ -33,7 +33,47 @@
     line-height: 50px;
     padding: 10px;
 }
+/* main */
+#main-content{
+    width: 100%;
+}
+.white-content{
+background-color: white;
+height: 250px;
+display: flex;
+}
 
+.gray-content{
+background-color: #d3d3d3;
+height: 250px;
+display: flex;
+}
+
+.height-content{
+    background-color: #d3d3d3;
+    height: 400px;
+}
+
+.pink-content{
+    width: 35%;
+    height: 200px;
+    background-color: #fec0ca;
+    margin: 25px auto;
+}
+
+.blue-content{
+width: 65%;
+height: 200px;
+background-color: #1c90ff;
+margin: 25px auto;
+}
+
+.green-content{
+    width: 100%;
+    height: 350px;
+    background-color:#228b21;
+}
+/* header */
 nav{
     display: flex;
     background-color: #daa520;
