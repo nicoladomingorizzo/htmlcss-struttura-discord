@@ -18,12 +18,20 @@
     margin: 0 auto;
 }
 
+.banner-container{
+    background-color: #ee81ee;
+    width: 60%;
+    max-width: 840px;
+    height: 200px;
+    margin: 25px auto;
+}
+
 /* General */
 #main-header{
     min-height: 50px;
     background-color: #add8e6;
     line-height: 50px;
-    padding: 10px 0;
+    padding: 10px;
 }
 
 nav{
@@ -46,4 +54,10 @@ border: 1px dashed red;
 .login{
 width: 25%;
 border: 1px dashed red;
+}
+
+.banner{
+    min-height: 250px;
+    background-color: #00008b;
+    display: flex;
 }
