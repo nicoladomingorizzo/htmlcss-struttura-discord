@@ -7,6 +7,7 @@
 
 /* Debug */
 .debug{
+    
 
 }
 /* Utilities */
@@ -18,6 +19,9 @@
     margin: 0 auto;
 }
 
+.display-flex{
+    display: flex;
+}
 .banner-container{
     background-color: #ee81ee;
     width: 60%;
@@ -34,19 +38,14 @@
     padding: 10px;
 }
 /* main */
-#main-content{
-    width: 100%;
-}
 .white-content{
 background-color: white;
 height: 250px;
-display: flex;
 }
 
 .gray-content{
 background-color: #d3d3d3;
 height: 250px;
-display: flex;
 }
 
 .height-content{
@@ -72,7 +71,9 @@ margin: 25px auto;
     width: 100%;
     height: 350px;
     background-color:#228b21;
+    margin: 25px auto;
 }
+
 /* header */
 nav{
     display: flex;
