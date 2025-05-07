@@ -13,23 +13,22 @@
   margin: 0 auto;
 }
 
-.display-flex {
+.d-flex {
   display: flex;
 }
 .banner-container {
   background-color: #ee81ee;
   width: 60%;
   max-width: 720px;
-  height: 200px;
   margin: 25px auto;
 }
 
 .h250{
-height: 250px;
+min-height: 250px;
 }
 
 .h200{
-    height: 200px;
+    min-height: 200px;
 }
 
 /* General */
